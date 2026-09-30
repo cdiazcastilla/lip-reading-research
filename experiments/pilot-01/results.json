@@ -1,0 +1,221 @@
+{
+ "description": "Pilot 01 (2026-09-29): 30 scripted Spanish sentences mouthed silently by one speaker, read by the Ma et al. (2022) CMU-MOSEAS Spanish visual model, then corrected by an LLM given the conversational context. No video or landmarks are included.",
+ "fields": {
+  "context": "what the speaker had just been told",
+  "sentence": "true sentence",
+  "reading": "visual model output",
+  "llm_ctx_top1": "LLM first option, with context"
+ },
+ "clips": [
+  {
+   "id": "s01",
+   "context": "¿Cómo amaneciste hoy?",
+   "sentence": "Dormí mal, me dolió la espalda toda la noche",
+   "reading": "es un nombre para ver dolores paralidad o de la noche",
+   "llm_ctx_top1": "Estoy bien, con un poco de dolor, pero me levanté temprano"
+  },
+  {
+   "id": "s02",
+   "context": "¿Qué quieres desayunar?",
+   "sentence": "Unos huevos con arepa y un café",
+   "reading": "con los huevos con la cama y un café",
+   "llm_ctx_top1": "Con los huevos, con pan y un café."
+  },
+  {
+   "id": "s03",
+   "context": "¿Llamo a tu hermana?",
+   "sentence": "Sí, dile que venga el sábado",
+   "reading": "esto es lo que tenemos que decir que tenemos que hacer una salvadora",
+   "llm_ctx_top1": "Sí, llama a tu hermana"
+  },
+  {
+   "id": "s04",
+   "context": "¿Te subo la cama?",
+   "sentence": "Un poquito más, así está bien",
+   "reading": "hay un poquito más gracias de aviar",
+   "llm_ctx_top1": "Sí, un poquito más, gracias, de verdad"
+  },
+  {
+   "id": "s05",
+   "context": "¿Quieres ver algo en la tele?",
+   "sentence": "Pon el partido de fútbol",
+   "reading": "porque el partido del foro de polo",
+   "llm_ctx_top1": "Sí, porque el partido del fútbol."
+  },
+  {
+   "id": "s06",
+   "context": "¿Te duele algo?",
+   "sentence": "Me molesta la garganta cuando trago",
+   "reading": "primero resiste la carretera cuando trae algo",
+   "llm_ctx_top1": "Sí, me duele algo."
+  },
+  {
+   "id": "s07",
+   "context": "¿Necesitas algo de la tienda?",
+   "sentence": "Compra pan, leche y jabón",
+   "reading": "ahora compran para leche a bueno",
+   "llm_ctx_top1": "Sí, compra leche, por favor."
+  },
+  {
+   "id": "s08",
+   "context": "¿A qué hora es la cita?",
+   "sentence": "A las tres de la tarde en la clínica",
+   "reading": "también a la enseñanza de arte en la cárcel",
+   "llm_ctx_top1": "A las tres de la tarde"
+  },
+  {
+   "id": "s09",
+   "context": "¿Quieres salir un rato?",
+   "sentence": "Vamos al parque cuando baje el sol",
+   "reading": "ahora vamos al par que cuando ven solo",
+   "llm_ctx_top1": "Ahora vamos al parque, que cuando sale el sol"
+  },
+  {
+   "id": "s10",
+   "context": "¿Tienes frío?",
+   "sentence": "Pásame la cobija azul por favor",
+   "reading": "vas a ver a la joven en su cómodo favor",
+   "llm_ctx_top1": "Sí, un poco."
+  },
+  {
+   "id": "s11",
+   "context": "¿Con quién hablaste?",
+   "sentence": "Con mi vecino, me trajo unas frutas",
+   "reading": "como veis que no vendrán ningunas frutas",
+   "llm_ctx_top1": "Con él, vi que no vendrá ninguna fruta."
+  },
+  {
+   "id": "s12",
+   "context": "¿Qué te dijo el doctor?",
+   "sentence": "Que tengo que caminar todos los días",
+   "reading": "todo lo que realmente todos los días",
+   "llm_ctx_top1": "Todo lo que realmente tienes que hacer todos los días"
+  },
+  {
+   "id": "s13",
+   "context": "¿Abro la ventana?",
+   "sentence": "No, que entra mucho ruido de la calle",
+   "reading": "pero no entra mucho ruido de la calle",
+   "llm_ctx_top1": "Sí, abre, pero no entra mucho ruido de la calle"
+  },
+  {
+   "id": "s14",
+   "context": "¿Ya tomaste la pastilla?",
+   "sentence": "Todavía no, me toca después del almuerzo",
+   "reading": "y todavía quedó mentor que después tenía el muerto",
+   "llm_ctx_top1": "y todavía quedó mentor que después tenía el muerto"
+  },
+  {
+   "id": "s15",
+   "context": "¿Qué quieres de cena?",
+   "sentence": "Algo suave, una sopa de pollo",
+   "reading": "pero la costumbre es una sombra de polonio",
+   "llm_ctx_top1": "Quiero una sopa de pollo"
+  },
+  {
+   "id": "s16",
+   "context": "¿Cómo te fue en la terapia?",
+   "sentence": "Bien, pero quedé muy cansado",
+   "reading": "bien veo que está muy cansado",
+   "llm_ctx_top1": "Bien, fue muy cansado"
+  },
+  {
+   "id": "s17",
+   "context": "¿Te leo el periódico?",
+   "sentence": "Léeme las noticias del pueblo",
+   "reading": "con las malas noticias de la muerte blog",
+   "llm_ctx_top1": "Con las malas noticias de la muerte, ya basta."
+  },
+  {
+   "id": "s18",
+   "context": "¿Quieres que apague la luz?",
+   "sentence": "Déjala prendida un rato más",
+   "reading": "pero dejarlas para tener un gran alto más",
+   "llm_ctx_top1": "Sí, apágala, por favor."
+  },
+  {
+   "id": "s19",
+   "context": "¿Te acuerdas de mi amigo Carlos?",
+   "sentence": "Claro, el que vivía cerca del río",
+   "reading": "pero algo el que vivía se reía del río",
+   "llm_ctx_top1": "Sí, pero él, el que vivía, se reía del río."
+  },
+  {
+   "id": "s20",
+   "context": "¿Llegó el recibo de la luz?",
+   "sentence": "Está encima de la mesa del comedor",
+   "reading": "en este sistema de la mensa del comador",
+   "llm_ctx_top1": "Sí, está en la mesa del comedor."
+  },
+  {
+   "id": "s21",
+   "context": "¿Quieres escuchar música?",
+   "sentence": "Pon boleros, los que le gustaban a mi mamá",
+   "reading": "los bosques los que le gustaban la misma mar",
+   "llm_ctx_top1": "Sí, me gusta la música."
+  },
+  {
+   "id": "s22",
+   "context": "¿Te ayudo a bañarte?",
+   "sentence": "Sí, pero con el agua tibia",
+   "reading": "no sé mejorar la cuenta de viaje",
+   "llm_ctx_top1": "No, gracias."
+  },
+  {
+   "id": "s23",
+   "context": "¿Dónde dejaste las llaves?",
+   "sentence": "Creo que en el bolsillo de la chaqueta",
+   "reading": "y creo que en el bolsillo de la chaqueta",
+   "llm_ctx_top1": "Y creo que está en el bolsillo de la chaqueta"
+  },
+  {
+   "id": "s24",
+   "context": "¿Qué hacemos el domingo?",
+   "sentence": "Invitemos a los nietos a almorzar",
+   "reading": "no invitamos a los que todos al amor salen",
+   "llm_ctx_top1": "No invitamos a los que vienen, todos vamos al mar."
+  },
+  {
+   "id": "s25",
+   "context": "¿Te sientes mejor?",
+   "sentence": "Un poco, ya no me duele tanto",
+   "reading": "un poco te ha tomado gritando",
+   "llm_ctx_top1": "Un poco, sí, me siento mejor"
+  },
+  {
+   "id": "s26",
+   "context": "¿Quieres que te acompañe?",
+   "sentence": "No hace falta, voy a descansar",
+   "reading": "no no hace falta voy a desenciar",
+   "llm_ctx_top1": "No, no hace falta, voy a descansar"
+  },
+  {
+   "id": "s27",
+   "context": "¿Qué pasó con el perro?",
+   "sentence": "Se escapó otra vez por el patio",
+   "reading": "si es el amor de la veces por el paleto",
+   "llm_ctx_top1": "Se escapó del patio"
+  },
+  {
+   "id": "s28",
+   "context": "¿Te traigo agua?",
+   "sentence": "Mejor un jugo de naranja sin azúcar",
+   "reading": "pero cuando desde aquí se cae su cara",
+   "llm_ctx_top1": "Sí, gracias"
+  },
+  {
+   "id": "s29",
+   "context": "¿Cuándo vuelves al médico?",
+   "sentence": "En dos semanas, el martes temprano",
+   "reading": "entonces hay máquinas que el parte sin pájaro",
+   "llm_ctx_top1": "El viernes a las tres"
+  },
+  {
+   "id": "s30",
+   "context": "¿Algo más antes de dormir?",
+   "sentence": "Gracias por cuidarme tanto, te quiero",
+   "reading": "y gracias por lo cuidarme tanto dinero",
+   "llm_ctx_top1": "Sí, gracias por cuidarme tanto"
+  }
+ ]
+}
