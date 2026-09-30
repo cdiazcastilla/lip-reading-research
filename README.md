@@ -1,7 +1,5 @@
 # Lip reading for people who have lost their voice
 
-[![tests](https://github.com/cdiazcastilla/lip-reading-research/actions/workflows/tests.yml/badge.svg)](https://github.com/cdiazcastilla/lip-reading-research/actions/workflows/tests.yml)
-
 Research code behind the lip-reading features of [DeeprVoice](https://deeprvoice.com), an assistive-communication app for people who can no longer speak (laryngectomy, tracheostomy, ALS). They mouth a sentence silently; the app says it out loud in their own cloned voice.
 
 This repository contains two lines of work, in Python:
